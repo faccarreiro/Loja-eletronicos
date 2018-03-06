@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 01-Mar-2018 às 00:34
+-- Generation Time: 06-Mar-2018 às 01:18
 -- Versão do servidor: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -34,8 +34,17 @@ CREATE TABLE `cliente` (
   `endereco` varchar(255) NOT NULL,
   `telefone` int(11) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `cpf` int(11) NOT NULL
+  `cpf` int(11) NOT NULL,
+  `senha` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `cliente`
+--
+
+INSERT INTO `cliente` (`id`, `nome`, `endereco`, `telefone`, `email`, `cpf`, `senha`) VALUES
+(8, 'felipe', 'rua gaucha', 2147483647, 'ninguem@gmail.com', 2147483647, 1515),
+(9, 'manoela', 'rua 123', 2147483647, 'mamae@gmail.com', 2147483647, 2756);
 
 -- --------------------------------------------------------
 
@@ -49,7 +58,8 @@ CREATE TABLE `funcionario` (
   `cpf` int(11) NOT NULL,
   `endereco` varchar(255) NOT NULL,
   `telefone` int(11) NOT NULL,
-  `email` varchar(255) NOT NULL
+  `email` varchar(255) NOT NULL,
+  `senha` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -97,7 +107,7 @@ ALTER TABLE `loja`
 -- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `funcionario`
