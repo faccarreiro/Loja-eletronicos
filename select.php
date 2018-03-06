@@ -5,7 +5,7 @@ include "conexao.php";
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "SELECT nome FROM usuarios WHERE (email)=('$email') AND (senha)=('$senha')" ;
+$sql = "SELECT * FROM cliente WHERE (email)=('$email') AND (senha)=('$senha')" ;
 $result = $conn->query($sql);
 
 if($result->num_rows>0){
