@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 06-Mar-2018 às 01:18
+-- Generation Time: 06-Mar-2018 às 01:32
 -- Versão do servidor: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -32,10 +32,10 @@ CREATE TABLE `cliente` (
   `id` int(11) NOT NULL,
   `nome` varchar(255) NOT NULL,
   `endereco` varchar(255) NOT NULL,
-  `telefone` int(11) NOT NULL,
+  `telefone` bigint(11) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `cpf` int(11) NOT NULL,
-  `senha` int(11) NOT NULL
+  `cpf` bigint(11) NOT NULL,
+  `senha` bigint(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -43,8 +43,10 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`id`, `nome`, `endereco`, `telefone`, `email`, `cpf`, `senha`) VALUES
-(8, 'felipe', 'rua gaucha', 2147483647, 'ninguem@gmail.com', 2147483647, 1515),
-(9, 'manoela', 'rua 123', 2147483647, 'mamae@gmail.com', 2147483647, 2756);
+(8, 'felipe', 'rua gaucha', 21953575185, 'ninguem@gmail.com', 2147483647, 1515),
+(9, 'manoela', 'rua 123', 21951753648, 'mamae@gmail.com', 1578542154, 2756),
+(10, 'abreu', 'rua 123', 21684268425, 'mamae3@gmail.com', 255984678, 4857),
+(11, '15', '123', 21957856485, '4445784@gmail.com', 21659585254, 6589);
 
 -- --------------------------------------------------------
 
@@ -55,11 +57,11 @@ INSERT INTO `cliente` (`id`, `nome`, `endereco`, `telefone`, `email`, `cpf`, `se
 CREATE TABLE `funcionario` (
   `id` int(11) NOT NULL,
   `nome` varchar(255) NOT NULL,
-  `cpf` int(11) NOT NULL,
+  `cpf` bigint(11) NOT NULL,
   `endereco` varchar(255) NOT NULL,
-  `telefone` int(11) NOT NULL,
+  `telefone` bigint(11) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `senha` int(11) NOT NULL
+  `senha` bigint(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -107,7 +109,7 @@ ALTER TABLE `loja`
 -- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `funcionario`
