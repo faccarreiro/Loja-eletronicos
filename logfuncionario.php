@@ -17,28 +17,23 @@
 
 
 <ul class="nav justify-content-center">
+
+<li class="nav-item">
+  <a class="nav-link" href="logfuncionario.php">login</a>
+</li>  
+  <li class="nav-item">
+    <a class="nav-link" href="cadfuncionario.php">cadastro de funcionario</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="cadprodutos.php">cadastro de produto</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="alteracao.php">alterar produto</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="exclusao.php">excluir produto</a>
+  </li>
   
-  <li class="nav-item">
-    <a class="nav-link" href="home.php">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="pc.php">PC Gamer</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="notebook.php">Notebook Gamer</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="tv.php">Smart TV</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="celular.php">Celulares</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="cadastro.php">Cadastro</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="login.php">Login</a>
-  </li>
   
 </ul>
 
@@ -46,12 +41,10 @@
 
 <br/>
 
-<form method="POST" action="select.php">
-<div class="container">
-
-  <div class="form-group">
-    <label for="email">Endereço de Email</label>
-    <input type="email" class="form-control" id="email" placeholder="Entre com email">
+<form method="POST" action="cadprod.php">
+  <div class="container-fluid">
+    <label for="cpf">CPF</label>
+    <input type="cpf" class="form-control" id="cpf" placeholder="CPF">
    
   </div>
   <div class="form-group">
@@ -59,10 +52,13 @@
     <input type="password" class="form-control" id="senha" placeholder="Senha">
   </div>
   
-  <button type="submit" class="btn btn-primary">Enviar</button>
+ <button class="btn btn-primary" type="submit">Envia</button>
 
-</div>
+</div>    
 </form>
+
+  </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
