@@ -54,6 +54,7 @@
     <input type="email" class="form-control" id="email" placeholder="Entre com email">
    
   </div>
+  
   <div class="form-group">
     <label for="senha">senha</label>
     <input type="password" class="form-control" id="senha" placeholder="Senha">

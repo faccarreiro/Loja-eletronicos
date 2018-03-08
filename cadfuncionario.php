@@ -41,30 +41,30 @@
 
 <br/>
 
-<form method="POST" action="cadprod.php">
+<form method="POST" action="cadfunc.php">
   <div class="container">
   
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="nome">Nome</label>
         <input type="text" class="form-control" name="nome" placeholder="Nome">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="cpf">CPF</label>
         <input type="text" class="form-control" name="cpf" placeholder="CPF">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="endereco">endereço</label>
         <input type="text" class="form-control" name="endereco" placeholder="endereço">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="telefone">telefone</label>
         <input type="text" class="form-control" name="telefone" placeholder="telefone">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="email">email</label>
         <input type="email" class="form-control" name="email" placeholder="email">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="senha">senha</label>
         <input type="text" class="form-control" name="senha" placeholder="senha">
       </div>

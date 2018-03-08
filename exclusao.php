@@ -41,23 +41,15 @@
 
 <br/>
 
-<form method="POST" action="cadprod.php">
+<form method="POST" action="exc.php">
   <div class="container">
-
-  <div class="form-group col-md-4">
-    <label for="cpf">CPF</label>
-    <input type="cpf" class="form-control" id="cpf" placeholder="CPF">
-   
-  </div>
-
-  <div class="form-group col-md-4">
-    <label for="senha">senha</label>
-    <input type="password" class="form-control" id="senha" placeholder="Senha">
-  </div>
   
- <button class="btn btn-primary" type="submit">Envia</button>
-
-</div>    
+        <div class="form-group">
+        <label for="id">ID</label>
+        <input type="text" class="form-control" name="id" placeholder="ID">
+      </div>
+</form>
+    <button class="btn btn-primary" type="submit">Envia</button>
 </form>
 
   </div>
