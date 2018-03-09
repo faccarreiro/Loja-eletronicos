@@ -14,7 +14,9 @@
     <h1><center>Lojas Carreiro<center></h1>
     <img src="imagens/images.jpg" class="container-fluid"></br>
 
-
+<div id="fnd">
+  <img src="imagen/001.gif" id="imagem"/>
+</div>
 
 <ul class="nav justify-content-center">
 
@@ -44,10 +46,16 @@
 <form method="POST" action="alt.php">
   <div class="container">
   
+      <div class="form-group">
+        <label for="id">ID</label>
+        <input type="text" class="form-control" name="id" placeholder="ID">
+      </div>
+
         <div class="form-group">
         <label for="produto">produto</label>
         <input type="text" class="form-control" name="produto" placeholder="Produto">
       </div>
+
       <div class="form-group">
         <label for="categoria">categoria</label>
         <select class="form-control col-md-4" name="categoria">

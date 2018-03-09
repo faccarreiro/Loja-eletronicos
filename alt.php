@@ -1,13 +1,13 @@
 <?php 
 include "conexao.php";
 
-$id=$_POST['id'];
-$produto=$_POST['produto'];
+       $id=$_POST['id'];
+  $produto=$_POST['produto'];
 $categoria=$_POST['categoria'];
-$estoque=$_POST['estoque'];
-$preco=$_POST['preco'];
+  $estoque=$_POST['estoque'];
+    $preco=$_POST['preco'];
 $descricao=$_POST['descricao'];
-$imagen=$_POST['imagen'];
+   $imagen=$_POST['imagen'];
 
 $sql= " UPDATE loja SET produto='$produto', categoria='$categoria', estoque='$estoque', preco='$preco', descricao='$descricao', imagen='$imagen' WHERE id=$id";
 
