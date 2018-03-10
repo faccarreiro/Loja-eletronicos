@@ -19,25 +19,25 @@
 <ul class="nav justify-content-center">
   
   <li class="nav-item">
-    <a class="nav-link" href="home.php">Home</a>
+    <a class="nav-link " href="home.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="pc.php">PC Gamer</a>
+    <a class="nav-link " href="pc.php">PC Gamer</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="notebook.php">Notebook Gamer</a>
+    <a class="nav-link " href="notebook.php">Notebook Gamer</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="tv.php">Smart TV</a>
+    <a class="nav-link " href="tv.php">Smart TV</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="celular.php">Celulares</a>
+    <a class="nav-link " href="celular.php">Celulares</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="cadastro.php">Cadastro</a>
+    <a class="nav-link " href="cadastro.php">Cadastro</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="login.php">Login</a>
+    <a class="nav-link " href="login.php">Login</a>
   </li>
   
 </ul>
@@ -49,27 +49,27 @@
 <form method="POST" action="cad.php">
 <div class="container">
   
-    <div class="form-group">
+    <div class="form-group col-md-4">
     <label for="nome">Nome</label>
     <input type="text" class="form-control" name="nome" placeholder="Seu Nome">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="cpf">CPF</label>
     <input type="number" class="form-control" name="cpf" placeholder="CPF">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="endereco">Endereço</label>
     <input type="text" class="form-control" name="endereco" placeholder="Endereço">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="telefone">Telefone</label>
     <input type="number" class="form-control" name="telefone" placeholder="Telefone">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="email">Email</label>
     <input type="email" class="form-control" name="email" placeholder="Email">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="senha">Senha</label>
     <input type="password" class="form-control" name="senha" placeholder="Senha">
   </div>

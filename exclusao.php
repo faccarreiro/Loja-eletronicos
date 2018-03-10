@@ -44,7 +44,7 @@
 <form method="POST" action="exc.php">
   <div class="container">
   
-        <div class="form-group">
+        <div class="form-group col-md-4">
         <label for="id">ID</label>
         <input type="text" class="form-control" name="id" placeholder="ID">
       </div>

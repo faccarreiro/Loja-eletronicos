@@ -44,17 +44,17 @@
 <form method="POST" action="alt.php">
   <div class="container">
   
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="id">ID</label>
         <input type="text" class="form-control" name="id" placeholder="ID">
       </div>
 
-        <div class="form-group">
+        <div class="form-group col-md-4">
         <label for="produto">produto</label>
         <input type="text" class="form-control" name="produto" placeholder="Produto">
       </div>
 
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="categoria">categoria</label>
         <select class="form-control col-md-4" name="categoria">
           <option value="smartfone">smartfone</option>
@@ -63,20 +63,20 @@
           <option value="notebook">notebook</option>
         </select>
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="estoque">estoque</label>
         <input type="text" class="form-control" name="estoque" placeholder="estoque">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="preco">preço</label>
         <input type="number" class="form-control" name="preco" placeholder="preço">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="descricao">descrição</label>
         <input type="text" class="form-control" name="descricao" placeholder="descriçao">
       </div>
       <form>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="imagen">imagen do produto</label>
         <input type="file" class="form-control" name="imagen">
       </div>

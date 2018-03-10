@@ -49,13 +49,13 @@
 <form method="POST" action="select.php">
 <div class="container">
 
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="email">Endereço de Email</label>
     <input type="email" class="form-control" id="email" placeholder="Entre com email">
    
   </div>
   
-  <div class="form-group">
+  <div class="form-group col-md-4">
     <label for="senha">senha</label>
     <input type="password" class="form-control" id="senha" placeholder="Senha">
   </div>
