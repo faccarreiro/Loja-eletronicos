@@ -12,7 +12,7 @@
   </head>
   <body>
    <h1><center>Lojas Carreiro<center></h1>
-    <img src="imagens/images.jpg" class="container-fluid"></br>
+    <img src="imagens/images.png" class="container-fluid"></br>
 
 
 
